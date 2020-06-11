@@ -44,8 +44,10 @@ or add `bcm2835-v4l2` to `/etc/modules`. This will expose the camera as a video 
 
 ## Note on Docker
 We have provided a set of multi-arch docker images as a baseline that provide the needed OpenCV and Numpy libraries. Feel free to use you own, but the process of esablishing baseline images is very involved. The images can be found here.
-* [Python 3.7 with OpenCV 4.2.0](www.dummy.com)
-* [Python 3.7 with OpenCV 4.3.0](www.dummy.com)
+* [Python 3.8 with OpenCV 4.2.0](https://hub.docker.com/repository/docker/rkdigimon/opencv)
+* [Python 3.8 with OpenCV 4.3.0](https://hub.docker.com/repository/docker/rkdigimon/opencv)
+* [Python 3.7 with OpenCV 4.2.0](https://hub.docker.com/repository/docker/rkdigimon/opencv)
+* [Python 3.7 with OpenCV 4.3.0](https://hub.docker.com/repository/docker/rkdigimon/opencv)
 
 ## Folder Structure
 The repository is a set of demonstrators, use them for testing your setup.
