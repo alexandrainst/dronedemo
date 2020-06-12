@@ -55,7 +55,8 @@ The repository is a set of demonstrators, use them for testing your setup.
     .
     ├── 1-usbcam-test             # Test that your camera is attached, and usable through Docker
     ├── 2-python-test             # Test that OpenCV is able to reach your camera, also through Docker
-    ├── 3-tpu-test                # Test that OpenCV works, and the Edge TPU device works, also though Docker
+    ├── 3-cpu-test                # Test that OpenCV works, tensorflow works, also though Docker
+    ├── 4-tpu-test                # Test that OpenCV works, and the Edge TPU device works, also though Docker
     ├── LICENSE
     └── README.md
 
