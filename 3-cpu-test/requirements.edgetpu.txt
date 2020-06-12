@@ -1,2 +1,0 @@
-https://dl.google.com/coral/edgetpu_api/edgetpu-2.14.0-cp37-cp37m-macosx_10_14_x86_64.whl; sys_platform == 'darwin' and  python_version == '3.7'
-https://dl.google.com/coral/edgetpu_api/edgetpu-2.14.0-py3-none-any.whl; sys_platform == 'linux' and python_version > '3.3'

@@ -1,5 +1,4 @@
 numpy==1.18.4
 olefile==0.45.1
 Pillow==7.1.2
-tensorflow
--r requirements.edgetpu.txt
+-r requirements.tflite.txt
