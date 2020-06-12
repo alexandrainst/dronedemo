@@ -1,4 +1,4 @@
-# Python Camera and TPU via. Docker on macOS, Ubuntu and Raspbian
+# Python Camera and Tensorflow via. Docker on macOS, Ubuntu and Raspbian
 
 [![Twitter: @thomasbjgilbert](https://img.shields.io/badge/contact-@thomasbjgilbert-blue.svg?style=flat)](https://twitter.com/thomasbjgilbert)
 [![Language: Python](https://img.shields.io/badge/lang-Python-yellow.svg?style=flat)](https://www.python.org/downloads/release/python-370/)
@@ -6,12 +6,12 @@
 
 ## Build
 ```bash
-docker build -t tpu-test .
+docker build -t cpu-test .
 ```
 
 ## Run
 ```bash
-docker run --rm -it --privileged -v /dev/bus/usb:/dev/bus/usb tpu-test
+docker run --rm -it --privileged -v /dev/bus/usb:/dev/bus/usb cpu-test
 ```
 
 ### Contents
