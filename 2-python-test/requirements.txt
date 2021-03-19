@@ -1,4 +1,4 @@
 numpy==1.18.4
 olefile==0.45.1
-Pillow==7.1.2
+Pillow==8.1.1
 -r requirements.edgetpu.txt
